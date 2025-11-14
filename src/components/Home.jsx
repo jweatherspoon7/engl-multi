@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, Bounds } from "@react-three/drei";
 import Going_merry from "../../public/Going_merry";
-import NavBar from "./Navbar";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -20,7 +19,7 @@ export default function Home() {
       {/* ---------- LEFT TEXT PANEL ---------- */}
       <div className="relative z-20 w-1/2 flex flex-col justify-center px-10 md:px-16">
         <h1 className="text-5xl md:text-6xl font-bold drop-shadow-xl">
-          Anime Pirates
+          Piracy in anime
         </h1>
 
         <p className="max-w-md mt-6 text-lg md:text-xl drop-shadow-lg">
