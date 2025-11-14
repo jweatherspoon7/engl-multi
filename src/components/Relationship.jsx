@@ -11,50 +11,61 @@ export default function Relationship() {
       {/* PAGE CONTENT */}
       <div className="max-w-4xl mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">
-          The Industry’s Complicated Relationship With Piracy
+          Why Japanese Studios Tolerate Piracy (and Why the Rest of the World
+          Doesn’t){" "}
         </h1>
 
         <p className="text-lg leading-relaxed mb-6">
-          The anime industry’s relationship with piracy is more complex than
-          most entertainment sectors. In Japan, companies have historically
-          tolerated certain kinds of fan infringement because, paradoxically, it
-          helps their franchises grow. Fan-made works—doujinshi, fansubs,
-          derivative art, and AMVs—are technically illegal, yet they have long
-          served as free marketing tools.
+          Japan’s relationship with piracy is strikingly different from most
+          countries. Many Japanese companies have historically tolerated certain
+          forms of copyright infringement because they view fan activity as
+          beneficial to long-term market growth. Tianxiang He describes this
+          strategy as one shaped by intentional “strategic ignorance,”
+          explaining that the anime and manga industries “have tolerated these
+          fan-based activities… simply because their existence benefits the
+          industry as a whole” (He, 1014).
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          Economists who study Japan’s copyright culture note that ignoring some
-          fan-made infringement can actually increase long-term profit by
-          expanding engagement and community loyalty. Fansubs, doujin markets,
-          and parody works generate enthusiasm and help smaller series develop
-          cult followings.
+          In Japan, fan-made works—though technically illegal—are treated as
+          grassroots marketing tools. Doujinshi, fansubs, and derivative art
+          generate enthusiasm for franchises, prolong interest, and create
+          dedicated communities. Arai and Kinukawa’s economic model supports
+          this view, concluding that “ignoring copyright infringement by a
+          derivative creator can be optimal for the copyright holder” (Arai &
+          Kinukawa, 131). In other words, tolerating fan activity can maximize
+          both cultural reach and profit.
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          But this tolerance isn’t universal. Outside Japan, companies rarely
-          exhibit the same leniency. Copyright enforcement becomes reactive
-          rather than strategic, largely because combating piracy
-          internationally is nearly impossible. Different legal systems,
-          region-locked licensing structures, and distributed online communities
-          mean foreign copyright holders often lack the tools to control
-          infringement the way they can domestically. Companies may want
-          stricter control abroad, but practical limitations force them into
-          defensive positions.
+          However, this strategic tolerance rarely extends beyond Japan. He
+          explains that “foreign copyright strategies towards fan activities
+          abroad appear more of a reaction, more of a last-ditch move” (He,
+          1017). Outside Japan, infringement is seen largely as a financial
+          threat rather than a cultural asset. Japanese companies recognize that
+          controlling online piracy in international markets is nearly
+          impossible, but they do not offer the same deliberate openness abroad.
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          Meanwhile, the economic losses caused by online piracy continue to
-          grow. Billions of dollars are lost yearly to illegal streaming,
-          torrenting, and unauthorized distribution. Yet despite these losses,
-          the anime market is thriving more than ever, reaching record-breaking
-          revenue totals worldwide.
+          Even with strategic tolerance, the consequences of piracy are
+          significant. According to Kyodo News, online piracy of Japanese
+          entertainment caused an estimated loss of 2 trillion yen ($15 billion)
+          in 2021. These numbers reflect a growing global problem, as illegal
+          streaming and download sites continue to expand.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          This dual reality reveals a central tension: piracy both harms the
-          industry financially and simultaneously fuels its global expansion.
-          The result is an ongoing struggle to balance exposure with
-          protection—a conflict that remains unresolved.
+          At the same time, the anime industry is more profitable than ever. The
+          Association of Japanese Animation reports that as of 2024, the anime
+          market reached 3.347 trillion yen, or 114.3% of the previous year’s
+          profits. This means that while piracy cuts into revenue, industry
+          growth continues to accelerate.
+        </p>
+        <p className="text-lg leading-relaxed mb-6">
+          The result is a fundamental tension: piracy harms profits but expands
+          cultural influence. Japanese studios must balance strict enforcement
+          with the recognition that fan-driven distribution helped anime become
+          a global phenomenon.
         </p>
       </div>
     </div>

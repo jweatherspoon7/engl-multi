@@ -11,56 +11,61 @@ export default function Ethics() {
       {/* PAGE CONTENT */}
       <div className="max-w-4xl mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">
-          The Ethics and Future of Anime Piracy
+          The Ethics, Motivations, and Future of Anime Piracy
         </h1>
 
         <p className="text-lg leading-relaxed mb-6">
-          Modern anime fans navigate a complicated ethical landscape. Piracy is
-          illegal, but fans often justify it for reasons that extend beyond
-          convenience. Some regions have limited or no legal access to anime.
-          Licensing windows can delay releases for months. Certain series never
-          receive legal translations or disappear entirely due to expired
-          licenses. In these situations, piracy becomes a tool for preservation,
-          access, and cultural participation.
+          Even as legal streaming platforms expand, anime piracy remains
+          widespread, and the ethical debates surrounding it are far from
+          simple. Many fans do not view the law as the measure of right and
+          wrong. Condry notes that “neither side views the law as the measure of
+          ethics… principles are developed by a citizenry composed of a
+          transnational community of fans” (Condry, 194). Ethical norms are
+          often shaped by accessibility, cultural preservation, and community
+          values rather than copyright law.
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          Many older or obscure anime survive today only because fans uploaded
-          and archived them online. In some cases, the official industry has
-          allowed entire eras of anime to fade into obscurity, leaving fan
-          archivists as the only preservers of cultural history.
+          Many fans justify piracy due to limited access. Legal releases are
+          frequently region-locked, overpriced, delayed, or never translated at
+          all. In some cases, pirated versions are the only existing archives of
+          older or niche series that have never received official international
+          distribution. This makes piracy not only a means of access but also a
+          method of preservation.
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          But ethical lines blur in the modern digital era. As fansubbing groups
-          grew, the scene shifted from collaborative cultural work to
-          competitive digital branding. Groups raced to release episodes first,
-          plastered their names across subtitles, and sometimes monetized their
-          distribution through ad-supported websites. What began as community
-          labor sometimes evolved into profit-driven behavior mirroring the very
-          industries fans opposed.
+          But the culture of fansubbing has changed over time. As Urbano
+          observes, “speed is imposed as a competitive tool in the online fan
+          community” (Urbano, 67). What began as cooperative cultural labor
+          evolved into competition between groups racing to release episodes
+          first. Some groups branded their subtitles, sought online recognition,
+          and even adopted monetized distribution through ad-supported websites.
+          This shift blurred the line between community service and
+          exploitation, as fansubbing increasingly resembled commercial media
+          production.
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          Piracy also places strain on the creative labor behind anime. Studios
-          may earn record profits, but animators and production staff often work
-          under extreme conditions and low pay. When piracy cuts into revenue,
-          it's the workers—already underpaid—who face the consequences.
+          The economic effects of piracy continue to pressure an already
+          strained industry. While the market is larger than ever, many
+          animators and production staff remain underpaid, and piracy can worsen
+          financial instability for smaller studios. At the same time, many
+          lifelong anime fans began as pirates before becoming paying
+          consumers—subscribing to platforms, purchasing Blu-rays, or buying
+          merchandise.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          The future of anime piracy depends on the industry’s willingness to
-          address global access issues while also protecting its creators. Legal
-          streaming platforms have reduced some reliance on piracy, offering
-          simultaneous releases, affordable subscriptions, and large libraries.
-          But gaps remain—untranslated works, regional restrictions, and
-          disappearing licenses continue to push fans toward illegal
-          alternatives.
+          This complex landscape shows why piracy remains unresolved. It damages
+          the industry, yet it also creates fans who contribute money in other
+          ways. It threatens revenue, yet preserves media that might otherwise
+          disappear. It undermines legal access, yet exists largely because
+          legal access remains inconsistent.
         </p>
         <p className="text-lg leading-relaxed mb-6">
-          The paradox persists: piracy damages the industry while simultaneously
-          sustaining its worldwide reach. Understanding this tension is key to
-          charting a future that honors both the creators and the global fanbase
-          who helped build anime into the phenomenon it is today.
+          The paradox persists: without the illegal labor of fans, anime would
+          not be the global medium it is today, yet that same piracy now
+          challenges the sustainability of the industry that fans love.
         </p>
       </div>
     </div>
