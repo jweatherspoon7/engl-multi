@@ -6,7 +6,9 @@ import Going_merry from "../../public/Going_merry";
 
 export default function Home() {
   const navigate = useNavigate();
-
+ /*
+  IMAGES !!!!!!!!!!!!!
+ */
 
   const goOrigins = () => {
     console.log("hi");
@@ -23,7 +25,7 @@ export default function Home() {
         </h1>
 
         <p className="max-w-md mt-6 text-lg md:text-xl drop-shadow-lg">
-          Sail the high seas of anime — discover, explore, and stream legendary treasure beyond the horizon.
+          Sail the high seas — discover and learn about the pirates of anime.
         </p>
 
         <div className="flex gap-4 mt-10">
