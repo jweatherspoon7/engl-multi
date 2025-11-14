@@ -7,13 +7,27 @@ Source: https://sketchfab.com/3d-models/one-piece-going-merry-0e1f16189e8b4b4d9d
 Title: One Piece -Going Merry
 */
 
-import React from 'react'
-import { useGLTF } from '@react-three/drei'
+import React, { useRef } from "react";
+import { useGLTF } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
 
-export default function Model(props) {
-  const { nodes, materials } = useGLTF('/going_merry.gltf')
+export default function Going_merry(props) {
+  const { nodes, materials } = useGLTF("/going_merry.gltf");
+  const ref = useRef();
+
+  useFrame((state) => {
+    const t = state.clock.getElapsedTime();
+
+    // Gentle boat rocking
+    ref.current.rotation.x = Math.sin(t * 1.2) * 0.03; // forward/back
+    ref.current.rotation.z = Math.sin(t * 0.9) * 0.04; // left/right sway
+
+    // Slight vertical bobbing
+    ref.current.position.y = Math.sin(t * 1.5) * 0.05;
+  });
+
   return (
-    <group {...props} dispose={null}>
+    <group ref={ref} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <mesh geometry={nodes.Object_2.geometry} material={materials.None} />
         <mesh geometry={nodes.Object_3.geometry} material={materials.None} />
@@ -46,7 +60,7 @@ export default function Model(props) {
         <mesh geometry={nodes.Object_30.geometry} material={materials.None} />
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/going_merry.gltf')
+useGLTF.preload("/going_merry.gltf");
