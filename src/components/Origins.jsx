@@ -27,7 +27,7 @@ export default function Origins() {
         <p className="text-lg leading-relaxed mb-6">
           <span className="float-left mr-4 mb-2 block text-center w-80">
             <img
-              src="src/assets/animefandomnyc.jpg"
+              src={import.meta.env.BASE_URL + "/assets/animefandomnyc.jpg"}
               alt="Early anime fansubbing and VHS tape trading"
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -66,7 +66,7 @@ export default function Origins() {
         <p className="text-lg leading-relaxed mb-6">
           <span className="float-right mr-4 mb-2 block text-center w-80">
             <img
-              src="src/assets/4kidz-one-piece.webp"
+              src={import.meta.env.BASE_URL + "/assets/4kidz-one-piece.webp"}
               alt="4kidz One Piece"
               className="rounded-lg shadow-md w-full h-auto"
             />

@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, Bounds } from "@react-three/drei";
-import Going_merry from "../../public/Going_merry";
+import Going_merry from "../components/Going_merry";
 
 export default function Home() {
   const navigate = useNavigate();

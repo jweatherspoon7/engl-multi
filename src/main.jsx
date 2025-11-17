@@ -8,7 +8,7 @@ import Relationship from './components/Relationship.jsx';
 import Ethics from './components/Ethics.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/engl-multi">
     <Routes>
       <Route index element={<Home />} />
       <Route path="origins" element={<Origins />} />

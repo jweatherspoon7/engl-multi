@@ -29,7 +29,7 @@ export default function Relationship() {
         <p className="text-lg leading-relaxed mb-6">
           <span className="float-left mr-4 mb-2 block text-center w-100">
             <img
-              src="src/assets/comiket.jpeg"
+              src={import.meta.env.BASE_URL + "/assets/comiket.jpeg"}
               alt="Comiket"
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -75,7 +75,7 @@ export default function Relationship() {
         </p>
         <div className=" mr-4 mb-2 block text-center ">
           <img
-            src="src/assets/anime_industry_chart.png"
+             src={import.meta.env.BASE_URL + "/assets/anime_industry_chart.png"}
             alt="Anime idustry chart"
             className="rounded-lg shadow-md w-full h-auto"
           />

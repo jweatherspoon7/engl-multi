@@ -17,7 +17,7 @@ export default function Ethics() {
         <p className="text-lg leading-relaxed mb-6">
           <span className="float-left mr-4 mb-2 block text-center w-100">
             <img
-              src="src/assets/hianime.png"
+              src={import.meta.env.BASE_URL + "/assets/hianime.png"}
               alt="hianime"
               className="rounded-lg shadow-md w-full h-auto"
             />
