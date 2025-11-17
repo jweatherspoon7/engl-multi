@@ -2,6 +2,13 @@
 
 https://sketchfab.com/3d-models/one-piece-going-merry-0e1f16189e8b4b4d9d9c3c60893d692b#download
 
+
+https://www.animenewsnetwork.com/daily-briefs/2019-08-10/comic-market-96-attracts-170000-attendees-on-2nd-day/.149919
+
+https://www.reddit.com/r/OnePiece/comments/1b1r9xc/4kidz_one_piece_names/
+
+https://www.cbr.com/hianime-anime-piracy-site-government-watch-list/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

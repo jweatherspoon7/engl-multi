@@ -25,6 +25,16 @@ export default function Origins() {
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
+          <span className="float-left mr-4 mb-2 block text-center w-80">
+            <img
+              src="src/assets/animefandomnyc.jpg"
+              alt="Early anime fansubbing and VHS tape trading"
+              className="rounded-lg shadow-md w-full h-auto"
+            />
+            <span className="text-xs text-gray-600 italic block mt-1">
+              1980s New York anime fans going to do a VHS tape marathon.
+            </span>
+          </span>
           These early communities played a foundational role. Fans gathered in
           clubs—often on college campuses—to trade VHS tapes, host watch
           parties, and purchase manga (Pinto). These groups acted not only as
@@ -54,6 +64,17 @@ export default function Origins() {
           “Japaneseness” of the text.
         </p>
         <p className="text-lg leading-relaxed mb-6">
+          <span className="float-right mr-4 mb-2 block text-center w-80">
+            <img
+              src="src/assets/4kidz-one-piece.webp"
+              alt="4kidz One Piece"
+              className="rounded-lg shadow-md w-full h-auto"
+            />
+            <span className="text-xs text-gray-600 italic block mt-1">
+              4Kidz notorious edits for the english dub of the anime{" "}
+              <i>One Piece</i>, to make the show more "kid friendly."
+            </span>
+          </span>
           This approach contrasted sharply with American licensors like 4Kids or
           early Funimation, who often localized shows by altering dialogue,
           rewriting story elements, replacing music, or cutting scenes to fit

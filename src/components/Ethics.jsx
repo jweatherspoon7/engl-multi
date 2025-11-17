@@ -15,6 +15,16 @@ export default function Ethics() {
         </h1>
 
         <p className="text-lg leading-relaxed mb-6">
+          <span className="float-left mr-4 mb-2 block text-center w-100">
+            <img
+              src="src/assets/hianime.png"
+              alt="hianime"
+              className="rounded-lg shadow-md w-full h-auto"
+            />
+            <span className="text-xs text-gray-600 italic block mt-1">
+              HiAnime - The world's largest anime pirating site.
+            </span>
+          </span>
           Even as legal streaming platforms expand, anime piracy remains
           widespread, and the ethical debates surrounding it are far from
           simple. Many fans do not view the law as the measure of right and
