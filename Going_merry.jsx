@@ -12,7 +12,7 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 export default function Going_merry(props) {
-  const { nodes, materials } = useGLTF("/going_merry.gltf");
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + "/going_merry.gltf");
   const ref = useRef();
 
   useFrame((state) => {
